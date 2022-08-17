@@ -1,0 +1,22 @@
+{
+  "name": "express-restful-api-demo",
+  "version": "1.0.0",
+  "description": "A demo of a RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldcs/express-restful-api-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldcs/express-restful-api-demo/issues"
+  },
+  "homepage": "https://github.com/geraldcs/express-restful-api-demo#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
