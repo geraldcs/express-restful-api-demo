@@ -6,8 +6,11 @@ const app = express();
 app.use(express.json());
 // 3. define some routes
 app.get('/', function(req, res) {
-    res.send('Sample home page');
+    res.json({
+        'message': 'Hello World';
+    })
 })
+
 // 4. start the server
 app.listen(4000, () => {
     console.log('server has started');
